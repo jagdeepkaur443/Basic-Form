@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  background-color: #B81365;
+}
+
+.form {
+  width: 30%;
+  margin: auto;
+  background-color: #FFD166;
+  padding: 10px;
+}
+
+input[type="text"],
+[type="password"] {
+  width: 90%;
+  height: 20px;
+}
+
+input[type=submit]{
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #26547C;
+    color: #fff;
+}
