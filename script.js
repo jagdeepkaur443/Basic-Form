@@ -18,6 +18,7 @@ var passCheck = function () {
     document.getElementById("alert").innerHTML = "Passwords dont match";
   } 
   else {
+    document.getElementById("alert").innerHTML = "";
     alert("Form Submitted");
   }
 }
