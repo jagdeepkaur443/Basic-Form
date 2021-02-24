@@ -1,7 +1,9 @@
+// prevent page from re-loading
 var form = document.getElementById("myForm");
 function handleForm(event) { event.preventDefault(); } 
 form.addEventListener('submit', handleForm);
 
+// check validation
 var passCheck = function () {
   var fName = document.getElementById("fName").value;
   var lName = document.getElementById("lName").value;
