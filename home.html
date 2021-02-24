@@ -8,14 +8,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="logo">
+        <img src="logo.png" alt="logo">
+    </div>
     <h1>Sign-Up form</h1>
     <div class="form">
-        <form action="">
-            <label for="fname">First Name: </label>
-            <input type="text" name="fname" id="fname" placeholder="First Name">
+        <form id="myForm">
+            <label for="fName">First Name: </label>
+            <input type="text" name="fName" id="fName" placeholder="First Name">
             <br><br>
-            <label for="lname">Last Name: </label>
-            <input type="text" name="lname" id="lname" placeholder="Last Name">
+            <label for="lName">Last Name: </label>
+            <input type="text" name="lName" id="lName" placeholder="Last Name">
             <br><br>
             <label for="email">Email: </label>
             <input type="text" name="email" id="email" placeholder="Email">
@@ -26,9 +29,13 @@
             <label for="cPassword">Confirm Password: </label>
             <input type="password" name="cPassword" id="cPassword" placeholder="Confirm Password">
             <br><br>
+            <p id="alert"></p>
 
             <input type="submit" onclick="passCheck();" id="submit" value="Submit">
         </form>
+
+        <p>Made with ❤️ by <a href="https://github.com/jagdeepkaur443/Basic-Form" target="_blank">Jagdeep Kaur </a>&copy; 2021</p>
+        <p></p>
     </div>
     <script src="index.js"></script>
 </body>
